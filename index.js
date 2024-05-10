@@ -90,8 +90,8 @@ app.post("/article", async (req, res) => {
     newArticle.title = articleTitle
     newArticle.body = articleBody 
     newArticle.numOfLikes = 100
-    await newArticle.save()
-    res.json(newArticle)
+    await newArticle.save();
+    res.json(newArticle);
 });
 
 app.get("/article", async(req, res) =>{
