@@ -81,7 +81,7 @@ app.delete("/deletePost", (req, res) => {
 });
 
 // ======= Article END-POINTS ========
-app.post("/article", async (req, res) => {
+app.post("/article", async (req, res) => { 
     const newArticle = new article()
     const articleTitle = req.body.artTitle
     const articleBody= req.body.artBody
