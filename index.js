@@ -17,7 +17,7 @@ mongoose
    })
 
 app.get("/", (req, res) => {
-    res.send(" ya wolcome ya welcome ya wolcome")
+    res.send(" ya welcome ya welcome ya welcome")
 });
 
 app.get("/sayHello", (req,res) => {
